@@ -15,7 +15,7 @@ const app = express();
 const views_path = path.join(__dirname, "/views");
 
 // Load config
-dotenv.config({ path: './config/config.env' });
+dotenv.config({ path: './config.env' });
 
 require("./config/passport")(passport)
 
